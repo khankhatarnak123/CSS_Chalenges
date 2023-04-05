@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* border: 1px solid red; */
+            /* text-align: center; */
+            margin-left: 500px;
+            margin-top: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <table border="2px">
+            <thead>
+                <th>Head Column1</th>
+                <th>Head Column2</th>
+                <th>Head Column3</th>
+                <th>Head Column4</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Row2-Item1</td>
+                    <td rowspan="2">Row2-Item2</td>
+                    <th rowspan="2">Row2:Nested Table1</th>
+                    <td>Row2-Item4</td>
+                </tr>
+                <tr>
+                    <!-- <td>Row2-Iem1</td> -->
+                    <!-- <td>Row2-Iem2</td> -->
+                    <!-- <th>Row2:Nested Table1</th> -->
+                    <td>Row2-Item8</td> 
+                </tr>
+                <tr>
+                <th>Row3:Nested Table 2</th>
+                <td rowspan="3">Row3-Item2</td>
+                <th>Row1 Header1</th>
+                <td rowspan="4">Row2-Iem12</td>
+                <tr>
+                    <th>Row1 Header</th>
+                    <!-- <td>Row3-Item2</td> -->
+                    <th>Row2 Header2</th>
+                    <!-- <td>Row2-Iem12</td> -->
+                </tr>
+                <tr>
+                    <th>Row1 Header</th>
+                    <!-- <td>Row3-Item2</td> -->
+                    <th>Row3 Header3</th>
+                    <!-- <td>Row2-Iem12</td> -->
+                </tr>
+                <tr>
+                    <td>Row4-Item1</td>
+                    <td>Row4-Item2</td>
+                    <td>Row4-Item3</td>
+                    <!-- <td>Row2-Iem12</td> -->
+                </tr>
+                <tr>
+                    <td colspan="4">Row 5-Last row Outer Table </td>
+                </tr>
+                
+                
+                
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

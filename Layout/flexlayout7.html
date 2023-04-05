@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexlayout7</title>
+</head>
+<style>
+    
+    .maincontainer{
+        border: 2px solid red;
+        min-height: 600px;
+        width: 500px;
+        margin: auto;
+    }
+    .nav{
+        height: 30px;
+        width: 500px;
+        background-color: dodgerblue;
+    }
+    .bottomnavmain{
+        height: 90px;
+        width: 500px;
+        background-color: whitesmoke;
+       
+    }
+   
+    .square{
+        height: 30px;
+        width: 30px;
+        background-color: gray;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .longbox{
+        height: 10px;
+        width: 100px;
+        background-color: gray;
+        margin-top: 20px;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .greenbox{
+        height: 130px;
+        width: 500px;
+        background-color: green;
+    }
+
+    .bottomgreen{
+        height: 110px;
+        width: 500px;
+        background-color: whitesmoke;
+
+    }
+    
+    .longbox1{
+        height: 10px;
+        width: 120px;
+        background-color: gray;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .rectangleboxes{
+        display: flex; 
+        justify-content: center;
+        margin-top: 20px;  
+    }
+
+    .rectangle1{
+        height: 70px;
+        width: 130px;
+        background-color: gray;
+        margin-right:20px;
+        
+    }
+    .rectangle2{
+        height: 70px;
+        width: 130px;
+        background-color: gray;
+        margin-left: 20px;
+        
+    }
+
+    .pinkmain{
+        height: 140px;
+        width: 500px;
+        background-color: palevioletred;
+    }
+    .pinkcontainermain{
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    /* .pinkcontainer1{
+        height: 120px;
+        width: 80px;
+        background-color: whitesmoke;
+        margin-top: 10px;
+    } */
+    .smallcontainer1{
+        height: 10px;
+        width: 60px;
+        background-color: gray;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .smallcontainer2{
+        height: 60px;
+        width: 60px;
+        background-color: gray;
+        margin: auto;
+        margin-top: 10px;
+
+    }
+    .pinkcontainer1{
+        height: 120px;
+        width: 80px;
+        background-color: whitesmoke;
+        margin-top: 10px;
+    }
+    .pinkcontainer2{
+        height: 120px;
+        width: 80px;
+        background-color: whitesmoke;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .pinkcontainer3{
+        height: 120px;
+        width: 80px;
+        background-color: whitesmoke;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .bottompinkmain{
+        height: 100px;
+        width: 500px;
+        background-color: whitesmoke;
+    }
+
+    .longbox2{
+        height: 10px;
+        width: 200px;
+        background-color: gray;
+        margin:auto;
+        margin-top: 10px;
+    }
+
+    .bigrectanglebox{
+        height: 70px;
+        width: 280px;
+        background-color: gray;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .lastcontainer{
+        height: 120px;
+        width: 500px;
+        background-color: whitesmoke;
+        display: flex;
+    }
+    
+
+    .orangebox{
+        height: 120px;
+        width: 250px;
+        background-color: orange;
+    }
+    .redbox{
+        height: 120px;
+        width: 250px;
+        background-color: red;
+    }
+
+    .longbox3{
+        height: 10px;
+        width: 100px;
+        background-color: gray;
+        margin: auto;
+        margin-top: 5px;
+    }
+
+    .lastrectangle{
+        height: 80px;
+        width: 180px;
+        background-color: gray;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .footer{
+        height: 30px;
+        width: 500px;
+        background-color:blue;
+    }
+
+    
+
+</style>
+<body>
+
+        <div class="maincontainer">
+
+            <div class="nav"></div>
+
+            <div class="bottomnavmain">  
+                    <div class="square"></div>
+                    <div class="longbox"></div>           
+            </div>
+            
+            <div class="greenbox"></div>
+
+            <div class="bottomgreen">
+                    <div class="longbox1"></div>
+                    <div class="rectangleboxes">
+                        <div class="rectangle1"></div>
+                        <div class="rectangle2"></div>
+                    </div>                
+            </div>
+
+
+            <div class="pinkmain">
+                <div class="pinkcontainermain">                   
+                    <div class="pinkcontainer1">
+                        <div class="smallcontainer1"></div>
+                        <div class="smallcontainer2"></div>
+                    </div>
+                    <div class="pinkcontainer2">
+                        <div class="smallcontainer1"></div>
+                        <div class="smallcontainer2"></div>
+                    </div>
+                    <div class="pinkcontainer3">
+                        <div class="smallcontainer1"></div>
+                        <div class="smallcontainer2"></div>
+                    </div>                    
+                </div>
+            </div>
+
+
+            <div class="bottompinkmain">
+                <div class="longbox2"></div>
+                <div class="bigrectanglebox"></div>
+            </div>
+
+
+            <div class="lastcontainer">
+                <div class="orangebox">
+                    <div class="longbox3"></div>
+                    <div class="lastrectangle"></div>
+                </div>
+                <div class="redbox">
+                    <div class="longbox3"></div>
+                    <div class="lastrectangle"></div>
+                </div>
+            </div>
+
+            <div class="footer"></div>
+
+        </div>  
+
+</body>
+</html>

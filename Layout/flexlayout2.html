@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexlayout2</title>
+</head>
+<style>
+    .maincontainer{
+        /* border: 1px solid red; */
+        width: 600px;
+        height: 600px;
+        margin: auto;
+
+    }
+
+    .orange{
+        width: 600px;
+        height: 150px;
+        background-color: orangered;
+        
+    }
+
+    .container{
+       display: flex; 
+       justify-content: space-between; 
+                    
+    }
+    
+
+
+    .yellow1{
+        height:200px;
+        width: 260px;
+        background-color: yellow;
+        margin-top: 20px;
+    }
+
+    .yellow2{
+        height: 200px;
+        width: 260px;
+        background-color: yellow;
+        margin-top: 20px;               
+    }
+
+    .aqua{
+        height: 420px;
+        width: 280px;
+        background-color:aqua;
+        margin-top: 20px;   
+    }
+
+</style>
+<body>
+    <div class="maincontainer">
+        <div class="orange"></div>
+        
+        <div class="container">
+            <div class="yellowboxes">
+                <div class="yellow1"></div>
+                <div class="yellow2"></div>
+            </div>
+        
+            <div class="aqua"></div>
+        </div>
+    </div>
+</body>
+</html>

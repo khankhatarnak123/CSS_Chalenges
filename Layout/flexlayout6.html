@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexlayout6</title>
+</head>
+<body>
+    <style>
+        .parentcontainer{
+            /* border: 1px solid blue; */
+            height: 650px;
+            width: 780px;
+            margin: auto;
+        }
+
+        .maincontainer{
+        display: flex;
+    }
+
+    .bigcontainer{
+        /* border: 2px solid red; */
+        height: 640px;
+        width: 500px;
+        margin-right: 40px;
+    }
+    
+    .bigbox{
+        height: 280px;
+        width: 500px;
+        background-color: red;
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .pink{
+        height:140px;
+        width: 290px;
+        background-color: pink;        
+    }
+
+    .green{
+        height:140px;
+        width: 190px;
+        background-color: green;
+    }
+
+    .blackboxes{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box1{
+        height: 140px;
+        width: 110px;
+        background-color: black;        
+    }
+
+    .box2{
+        height: 140px;
+        width: 110px;
+        background-color: black;
+    }
+
+    .box3{
+        height: 140px;
+        width: 110px;
+        background-color: black;
+    }
+
+    .box4{
+        height: 140px;
+        width: 110px;
+        background-color: black;
+    }
+
+    .bigcontainer2{
+        /* border: 1px solid red; */
+        height: 640px;
+        width: 220px;
+    }
+    .maincontainer2{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .red{
+        height: 310px;
+        width: 60px;
+        background-color: red;
+    }
+
+    .green1{
+        height: 310px;
+        width: 60px;
+        background-color: green;
+    }
+
+    .gray{
+        height: 310px;
+        width: 60px;
+        background-color: gray;
+    }
+
+    .twoboxes{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .lightpurple{
+        height: 80px;
+        width: 100px;
+        background-color:purple;
+    }
+
+    .pink1{
+        height: 80px;
+        width: 100px;
+        background-color:pink;
+    }
+
+    .lightgreen{
+        height: 80px;
+        width: 220px;
+        background-color:lightgreen;
+        margin-top: 20px;       
+    }
+
+    .blue{
+        height: 80px;
+        width: 220px;
+        background-color:blue;
+        margin-top: 40px;
+    }
+    </style>
+    <div class="parentcontainer">
+
+        <div class="maincontainer">
+            
+            <div class="bigcontainer">
+                <div class="bigbox"></div>
+                <div class="container">
+                    <div class="pink"></div>
+                    <div class="green"></div>
+                </div>
+                <div class="blackboxes">
+                <div class="box1"></div>
+                <div class="box2"></div>
+                <div class="box3"></div>
+                <div class="box4"></div>
+            </div>
+        </div>
+        
+        <div class="bigcontainer2">
+            <div class="maincontainer2">
+                
+                <div class="red"></div>
+                <div class="green1"></div>
+                <div class="gray"></div>
+            </div>
+            
+            <div class="twoboxes">
+                <div class="lightpurple"></div>
+                <div class="pink1"></div>
+            </div>
+            <div class="lightgreen"></div>
+            <div class="blue"></div>
+        </div>
+                
+    </div>
+</div>
+</body>
+</html>
